@@ -1,0 +1,380 @@
+@media screen and (max-width:136.6rem) and (orientation: landscape) {
+    .contenedor {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        padding: 0rem 8rem;
+    }
+
+    .perfil {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .foto {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0rem 1rem 0rem 0rem;
+    }
+
+    .bienvenida h2 {
+        font-weight: 600;
+        font-size: 1.6rem;
+        color: var(--black);
+    }
+
+    .bienvenida span {
+        margin: 2rem 0rem 0rem 0rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: var(--black);
+    }
+
+    .campana {
+        font-size: 1.8rem;
+    }
+
+    .balance {
+        margin-top: 2.2rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .balance h2{
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: var(--black);
+    }
+
+    .dinero {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .dinero h1{
+        font-size: 3.5rem;
+        color: var(--black);
+    }
+
+    .dinero a{
+        width: 9rem;
+        height: 4.2rem;
+        background-color: var(--purple);
+        color: var(--white);
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2rem;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-top: -1.3rem;
+    }
+
+    .recuadro {
+        display: flex;
+        flex-direction: column;
+
+        background-color: #8ed4cc1f;
+        width: 50%;
+        border-radius: 1.4rem;
+        padding: 0rem 2rem 2rem 2rem;
+        margin-top: 2.5rem;
+    }
+
+    .seccion1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+
+    .seccion1 h2{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    .span1 {
+        color: #1612268a;   
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .span {
+        font-size: 1.3rem !important;
+        font-weight: 500;
+    }
+
+    .a{
+        width: 5rem;
+        height: 5rem;
+        padding: 1.5rem 1.5rem;
+        background-color: var(--green);
+        border-radius: 100%;
+        font-size: 1.6rem;
+        color: var(--black);
+    }
+
+    .h2 {
+        color: var(--green);
+    }
+
+    .lista {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .lista div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1.4rem;
+    }
+
+    .lista h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .lista h3 {
+        font-size: 1.6rem;
+        color: #16122656;
+        font-weight: 600;
+    }
+
+    .lista h4 {
+        font-size: 1.6rem;
+        color: var(--black);
+        font-weight: 500;
+    }
+
+    .lista span {
+        font-size: 1.6rem;
+        color: var(--purple);
+        font-weight: 500;
+    }
+
+    .botones {
+        margin-top: 1rem;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botones img{
+        width: 30rem;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:37.5rem) and (orientation: portrait){
+    .contenedor {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        padding: 0rem 3rem;
+    }
+
+    .perfil {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .foto {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0rem 1rem 0rem 0rem;
+    }
+
+    .bienvenida h2 {
+        font-weight: 600;
+        font-size: 1.6rem;
+        color: var(--black);
+    }
+
+    .bienvenida span {
+        margin: 2rem 0rem 0rem 0rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: var(--black);
+    }
+
+    .campana {
+        font-size: 1.8rem;
+    }
+
+    .balance {
+        margin-top: 2.2rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .balance h2{
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: var(--black);
+    }
+
+    .dinero {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .dinero h1{
+        font-size: 3.5rem;
+        color: var(--black);
+    }
+
+    .dinero a{
+        width: 9rem;
+        height: 4.2rem;
+        background-color: var(--purple);
+        color: var(--white);
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2rem;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-top: -1.3rem;
+    }
+
+    .recuadro {
+        display: flex;
+        flex-direction: column;
+
+        background-color: #8ed4cc1f;
+        width: 100%;
+        border-radius: 1.4rem;
+        padding: 0rem 2rem 2rem 2rem;
+        margin-top: 2.5rem;
+    }
+
+    .seccion1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+
+    .seccion1 h2{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    .span1 {
+        color: #1612268a;   
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .span {
+        font-size: 1.3rem !important;
+        font-weight: 500;
+    }
+
+    .a{
+        width: 2rem;
+        height: 2rem;
+        padding: 1.5rem 1.5rem;
+        background-color: var(--green);
+        border-radius: 100%;
+        font-size: 1.4rem;
+        color: var(--black);
+    }
+
+    .h2 {
+        color: var(--green);
+    }
+
+    .lista {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+    }
+
+    .lista div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1.4rem;
+    }
+
+    .lista h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .lista h3 {
+        font-size: 1.6rem;
+        color: #16122656;
+        font-weight: 600;
+    }
+
+    .lista h4 {
+        font-size: 1.6rem;
+        color: var(--black);
+        font-weight: 500;
+    }
+
+    .lista span {
+        font-size: 1.6rem;
+        color: var(--purple);
+        font-weight: 500;
+    }
+
+    .botones {
+        margin-top: 2rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .botones img{
+        width: 30rem;
+        height: auto;
+    }
+}

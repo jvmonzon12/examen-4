@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root {
+    --black: #161226;
+    --purple: #5E59EE;
+    --green: #8ED4CC;
+    --white: #FBFBFB;
+}
